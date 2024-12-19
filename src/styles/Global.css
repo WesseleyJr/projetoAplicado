@@ -1,0 +1,50 @@
+:root {
+  --preto-primario: #000;
+  --preto-secundario: #333;
+  --branco-primario: #fff;
+  --branco-secundario: #d9d9d9;
+  --branco-transparente: rgba(255, 255, 255, 0.678);
+  --verde-escuro: #0a784c;
+  --verde-claro: #139662;
+  --azul-primario: #13293d;
+  --azul-secundario: #006494;
+  --azul-primario-claro: #247ba0;
+  --azul-secundario-claro: #1b98e0;
+  --azul-link: #0015ff;
+
+  --emergencia: #ff1e1e;     
+  --muito-urgente: #FFFF00;     
+  --urgente: #FFA500;           
+  --pouco-urgente: #15ff00;     
+  --nao-urgente: #00bbff;      
+  --default: #d9d9d9;           
+
+  --font-size: 16px;
+
+  
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--azul-secundario);
+  font-size: var(--font-size);
+}
+
+h1, h2, h3, p {
+  font-size: var(--font-size);
+}
